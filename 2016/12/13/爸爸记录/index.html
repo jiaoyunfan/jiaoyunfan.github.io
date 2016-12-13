@@ -4,7 +4,7 @@
     <!-- Title -->
     
     <title>
-        archive_a | 成长日志
+        爸爸记录 | 成长日志
     </title>
     
     <!-- Favicons -->
@@ -40,7 +40,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://jiaoyunfan.win">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="archive_a | 成长日志">
+    <meta property="og:title" content="爸爸记录 | 成长日志">
     <meta property="og:description" content="快快乐乐成长">
     
      <!--[if lte IE 9]>
@@ -189,272 +189,218 @@
                 </button>
 				
 				
-                <!-- Index Module -->
-<div class="material-index mdl-grid">
-	
-		<!-- Paradox Header -->
-		<!-- Daily pic -->
-<div class="mdl-card daily-pic mdl-cell mdl-cell--8-col index-top-block">
-    
-    <!-- Pic & Slogan -->
-    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/daily_pic.png)">
-        <p class="index-top-block-slogan"><a href="gallery">长风破浪会有时 直挂云帆济沧海</a></p>
-    </div>
+                
+	<!-- Back Button -->
+<!--
+	<div class="material-back" id="backhome-div" tabindex="0">
+		<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="#" onclick="window.history.back();return false;" target="_self" role="button" data-upgraded=",MaterialButton,MaterialRipple">
+			<i class="material-icons" role="presentation">arrow_back</i>
+			<span class="mdl-button__ripple-container">
+				<span class="mdl-ripple"></span>
+			</span>
+		</a>
+	</div>			
+-->
+	<!-- Left aligned menu below button -->
+	<button id="post-toc-trigger-btn"
+			class="mdl-button mdl-js-button mdl-button--icon">
+	  <i class="material-icons">format_list_numbered</i>
+	</button>
 
-    <!-- Avatar & Name -->
-    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-        <!-- Author Avatar -->
-        <div id="author-avatar">
-            <img src="/img/avatar.png" width="32px" height="32px" alt="avatar">
-        </div>
-        <div>
-            <strong>云帆</strong>
-        </div>
-    </div>
-</div>
-
-		<!-- Blog info -->
-<div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop index-top-block">
-	
-    <!-- Search -->
-	
-
-
-
-
-	<!-- Local -->
-	<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable" method="post" action="">
-		<label id="search-label" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent mdl-shadow--4dp" for="search">
-			<i class="material-icons mdl-color-text--white" role="presentation">search</i>
-		</label>
-
-		<form id="search-form" class="mdl-textfield__expandable-holder">
-			<input type="text" id="search" class="form-control mdl-textfield__input search-input" name="q" results="0" placeholder=""/>
-			<label id="search-form-label" class="mdl-textfield__label" for="search"></label>
+	<ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+		for="post-toc-trigger-btn">
 			
-		</form>
-	</div>
-
-	<div id="local-search-result"></div>
-
-
-    <!-- LOGO -->
-    <div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
-        <a href="about">
-            <img src="/img/logo.png" alt="logo" />
-        </a>
-    </div>
-
-    <!-- Infomation -->
-    <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
-        <!-- Blog Title -->
-        <div>
-            <strong>成长日志</strong>
-        </div>
-        <div class="section-spacer"></div>
-        
-        <!-- Pages -->
-        <button id="show-pages-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">view_carousel</i>
-            <span class="visuallyhidden">Pages</span>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="show-pages-button">
-            
-                <a class="index_share-link" href="/gallery" title="画廊">
-                    <l class="mdl-menu__item mdl-js-ripple-effect"i>
-                        画廊
-                    </li>
-                </a>
-            
-                <a class="index_share-link" href="/about" title="关于">
-                    <l class="mdl-menu__item mdl-js-ripple-effect"i>
-                        关于
-                    </li>
-                </a>
-            
-        </ul>
-        
-        <!-- Menu -->
-        <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">more_vert</i>
-            <span class="visuallyhidden">show menu</span>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
-            
-            <a class="index_share-link" href="null">
-                <li class="mdl-menu__item mdl-js-ripple-effect">
-                    文章 RSS
-                </li>
-            </a>
-            <a class="index_share-link" href="https://twitter.com/intent/tweet?text=成长日志&url=http://jiaoyunfan.win/&via=云帆" target="_blank">
-                <li class="mdl-menu__item mdl-js-ripple-effect">
-                    分享到 Twitter
-                </li>
-            </a>
-            <a class="index_share-link" href="https://plus.google.com/share?url=http://jiaoyunfan.win/" target="_blank">
-                <li class="mdl-menu__item mdl-js-ripple-effect">
-                    分享到 Google+
-                </li>
-            </a>
-            <a class="index_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=成长日志&url=http://jiaoyunfan.win/&pic=&searchPic=false&style=simple" target="_blank">
-                <li class="mdl-menu__item mdl-js-ripple-effect">
-                    分享到微博
-                </li>
-            </a>
-        </ul>
-    </div>
-</div>
-
-	
-    
-    
+			
 		
-			<!-- Paradox Thumbnail -->
-        	<div class="post_entry-module mdl-card mdl-cell mdl-cell--12-col fade out">
-    
-    <!-- Post Thumbnail -->
+<!--			<li class="mdl-menu__item">Some Action</li>-->
+	</ul>
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+		
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+	<!-- Paradox Post Header -->
 	
 		<!-- Custom Thumbnail -->
 		<div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://ohg66kf70.bkt.clouddn.com/yf2016121302.png)">
 	
+        <p class="article-headline-p">
+            爸爸记录
+        </p>
+    </div>
+
+	
+
 				
-		<!-- Post Title -->
-		<p class="article-headline-p"><a href="/2016/12/13/爸爸记录/">爸爸记录</a></p>
-	</div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-          
-亲爱的小宝，妈妈陪你回老家了，把爸爸一个人扔在了广州，准备迎接你的到来。一个星期了，爸爸看不到你和妈妈，不能摸着妈妈的肚子感受你的动作，...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2016/12/13/爸爸记录/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="云帆's avatar">
-            </div>
-            <div>
-                <strong>云帆</strong>
-                <span>12月 13, 2016</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                
-            </span>
-            
-            
-                <!-- Comment Number -->
-                &nbsp;|&nbsp;
-                <span class="post_entry-comment" >
-                        <span class="ds-thread-count" data-thread-key="2016/12/13/爸爸记录/" data-count-type="comments"></span>
-                </span>
-            
-            
-            <!-- Post Views -->
-            <span class="post_entry-views">
-                
-            </span>
-        </div>
-    </div>
-            
-</div>
-
-		
-		
-    
-		
-			<!-- Paradox Thumbnail -->
-        	<div class="post_entry-module mdl-card mdl-cell mdl-cell--12-col fade out">
-    
-    <!-- Post Thumbnail -->
-	
-		<!-- Custom Thumbnail -->
-		<div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://ohg66kf70.bkt.clouddn.com/yf2016120401.jpg)">
-	
 				
-		<!-- Post Title -->
-		<p class="article-headline-p"><a href="/2016/12/05/孕期麻麻记录/">孕期麻麻记录</a></p>
-	</div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-          怀孕期间，麻麻的记录
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2016/12/05/孕期麻麻记录/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="云帆's avatar">
-            </div>
-            <div>
-                <strong>云帆</strong>
-                <span>12月 05, 2016</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                
-            </span>
-            
-            
-                <!-- Comment Number -->
-                &nbsp;|&nbsp;
-                <span class="post_entry-comment" >
-                        <span class="ds-thread-count" data-thread-key="2016/12/05/孕期麻麻记录/" data-count-type="comments"></span>
-                </span>
-            
-            
-            <!-- Post Views -->
-            <span class="post_entry-views">
-                
-            </span>
-        </div>
-    </div>
-            
-</div>
-
-		
-		
+					<!-- Paradox Post Info -->
+					<div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
     
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>云帆</strong>
+        <span>12月 13, 2016</span>
+    </div>
     
+    <div class="section-spacer"></div>
 	
-		<script>
+    <!-- Favorite -->
+<!--
+    <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+        <i class="material-icons" role="presentation">favorite</i>
+        <span class="visuallyhidden">favorites</span>
+    </button>
+-->
     
-    var randomNum;
+    <!-- Tags (bookmark) -->
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/爸爸/">爸爸</a>
+    </ul>
     
-    var locatePost = $(".something-else").next();
-    for(var i=0; i < 10; i++){
-        
-        randomNum = Math.floor(Math.random() * 5 + 1);
-        
-        locatePost.children(".post_thumbnail-random").attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children(".post_thumbnail-random").css('background-image', 'url(' + '/img/random/' + randomNum + '.png' + ')')
-        
-        locatePost = locatePost.next();
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+    
+    <!-- Leancloud Views -->
+    <a class="post_share-link" href="#">
+        <li class="mdl-menu__item">
+            <span id="/2016/12/13/爸爸记录/" class="leancloud-views_num" data-flag-title="爸爸记录">
+     &nbsp;浏览量
+</span>
+        </li>
+    </a>
+    
+    
+    
+    
+    <!-- Share Twitter -->
+    <a class="post_share-link" href="https://twitter.com/intent/tweet?text=爸爸记录&url=http://jiaoyunfan.win//2016/12/13/爸爸记录/index.html&via=云帆" target="_blank">
+        <li class="mdl-menu__item">
+            分享到 Twitter
+        </li>
+    </a>
+    
+    <!-- Share Google+ -->
+    <a class="post_share-link" href="https://plus.google.com/share?url=http://jiaoyunfan.win//2016/12/13/爸爸记录/index.html" target="_blank">
+        <li class="mdl-menu__item">
+            分享到 Google+
+        </li>
+    </a>
+    
+    <!-- Share Weibo -->
+    <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=爸爸记录&url=http://jiaoyunfan.win//2016/12/13/爸爸记录/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <li class="mdl-menu__item">
+            分享到微博
+        </li>
+    </a>
+</ul>
+</div>
+				
+
+                <!-- Post Content -->
+                <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+	
+		<ul>
+<li>亲爱的小宝，妈妈陪你回老家了，把爸爸一个人扔在了广州，准备迎接你的到来。一个星期了，爸爸看不到你和妈妈，不能摸着妈妈的肚子感受你的动作，只能一个人孤零零的，爸爸好可怜，好想你们娘俩。不过还有半个月咱爷俩就能见面了，爸爸好期待。爸爸无数次想过刚刚出生的你是什么样子，像妈妈那样漂亮吗？还是像爸爸这么帅，哈哈。妈妈希望你长得好看，爸爸对长相却没那么多想法，爸爸希望你聪明、健康。</li>
+</ul>
+<ul>
+<li>2016年4月26日，那一天妈妈发现了你的存在，我们两个都好开心，但又有点不确定，幸福来的太突然，让我们俩有一种不真实的感觉，心里期盼是真的，但又怕这只是一场美丽的幻觉。之后我陪妈妈去医院做检查，医生确认了你的存在，半空中飘着的幸福才算落地。</li>
+</ul>
+<ul>
+<li>没过多久，你对妈妈的影响就开始出现了，那10几天，妈妈超级能吃，吃完饭没过多久就又饿了，爸爸晚上还得再给妈妈做一顿才行。再然后妈妈痛并快乐的日子就开始了，妈妈开始不像之前那么能吃了，看到饭就恶心，开始吐，一天吐好多次，每次吐得都浑身是汗，看的爸爸好心疼。这样的状态妈妈持续了两个月才开始好转。从怀孕开始，妈妈就下了APP每天上去看一看小宝你今天有多大了。看着APP上显示你从一个小葡萄籽，变成葡萄、核桃、苹果、柚子。。。爸爸妈妈开心极了。爸爸开始给你做胎教，每天给你读唐诗、宋词。给你读的最多的就是大诗人李白的诗了，尤其是那首<code>将进酒</code>，读了不计其数次。爸爸希望你将来有文采，就像罗辑思维里说的那样，也许别人看到美丽的景色只能说“我靠”，你却会说“大漠孤烟直，长河落日圆”。当然，爸爸只是给你做一个开始，以后还是要靠你自己啊，哈哈。给你读的过程中爸爸还记住了好几首诗，爸爸也要谢谢你，不然可能这辈子都没机会背诗了。后来，爸爸想起以前在高中的时候读过的非常好一本书<code>小王子</code>，希望你能像书中的小王子一样明白一些道理，就开始给你读这本书，每天晚上读几章。可惜爸爸下班晚，妈妈有你不能太晚睡觉，一直到妈妈和你回家也没读完。爸爸答应你这次回去一定把整本书给你读完，原谅爸爸吧。</li>
+</ul>
+<ul>
+<li>有了你之后，妈妈就要定期去医院做检查，看看小宝你是不是一切安好。每次看到B超结果上你超级像外星人的样子，爸爸妈妈就好开心。妈妈还说你的鼻子好大，跟她的一样。中间还被你这个小家伙给吓了一下，做完唐氏筛查后，结果单上写着高风险几个字，爸爸妈妈好担心。按照医生的建议，妈妈又做了无创DNA，万幸这次结果显示都正常，爸爸妈妈才算安了心。小家伙，你是在逗爸爸妈妈玩吗？妈妈在怀孕期间，被抽了好多管血，好可怜。所以，以后要怎么对妈妈，你懂得。</li>
+</ul>
+<ul>
+<li>自从发现了你，爸爸妈妈就开始想着给你起什么名字。很快爸爸就想了个名字叫<code>持趣</code>，因为爸爸希望你是个能坚持、有趣的人。爸爸兴冲冲的打电话告诉妈妈，妈妈一下子就否决了，因为谐音不好听。那爸爸只好继续再想了。之后，我们俩都觉得叫<code>焦典</code>不错，暂时把这个作为备用。后来爸爸在给你读诗的过程中，读到<code>长风破浪会有时，直挂云帆济沧海</code>，忽然灵机一动，跟妈妈说<code>云帆</code>这个名字怎么样，妈妈拍手叫好（O(∩_∩)O），就这样你又多了一个可选的名字，哈。考虑到如果你是个美丽的小公主，云帆有点太男性化了，就又想了一个名字叫<code>暄妍</code>，出自宋代诗人林逋的<code>山园小梅</code>，<code>众芳摇落独暄，占尽风情向小园</code>。爸爸希望以后当你介绍自己的时候说我叫xxx，然后有人就读了两句诗出来，想想这个画面就开心。其实还有好多名字都想给你，因为爸爸对你有太多的祝福、期待，短短的两个字根本无法容纳。关于名字，还有一个小插曲，妈妈老是跟我说要让小宝你跟妈妈姓，当然被我义正言辞的拒绝了，爸爸舍不得，哈。</li>
+</ul>
+<ul>
+<li>在妈妈怀你之前，我就跟妈妈说，以后要做一个网站，记录妈妈怀孕、小宝成长的整个过程。爸爸做的不好，很晚才做了出来。不过爸爸以后会与妈妈一起在这个网站上记录你的成长，每一个重要的时刻。我们希望能一直陪伴你，直到你想要自己去闯、想独立的那一天。那时，我们会是你坚强、温暖的后盾。</li>
+</ul>
+<ul>
+<li>小宝，爸爸期待你的到来，爸爸希望你以后都健健康康，爸爸希望你是个聪明、阳光、有毅力的人，爸爸陪你一起成长。希望你的到来一切顺利，爸爸相信会的。</li>
+</ul>
+<p>2016年12月12日 妈妈去医院检查，医生告诉妈妈你是个小帅哥。妈妈告诉爸爸的时候，爸爸好开心，以后你就叫小云帆了。爸爸会陪着你一起玩，一起成长，跟着你接受、学习新事物。</p>
+
+	
+	
+	
+	
+</div>
+				
+				
+
+                <!-- Post Comments -->
+                
+    <!-- 使用多说评论 -->
+    <link rel="stylesheet" href="/css/duoshuo.min.css">
+<style>
+    #ds-thread #ds-reset .ds-post-button{
+        background-color: #0097A7 !important;
     }
-    
-</script>
-
-	
-
+    #ds-wrapper #ds-reset .ds-icons-32{
+        background-color: #0097A7 !important;
+    }
+    #ds-reset .ds-highlight {
+        color: #0097A7 !important;
+    }
+</style>
+<div id="comments">
+    <!-- 多说评论框 start -->
+        <div class="ds-thread" 
+            data-thread-key="2016/12/13/爸爸记录/" 
+            data-url="http://jiaoyunfan.win/2016/12/13/爸爸记录/"
+            data-title="爸爸记录"></div>
+    <!-- 多说评论框 end -->
 </div>
+
+
+
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2016/12/05/孕期麻麻记录/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+        </div>
+    </div>
 
 				
 				
